@@ -1,0 +1,9 @@
+### Module positions - created on 3/6/2017 3:02:38 PM ###
+### Printed by Pcbnew version pcbnew (2013-07-07 BZR 4022)-stable
+## Unit = inches, Angle = deg.
+## Side : F.Cu.1
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+J8       GND-Opt          Solder_trace        3.1384     0.3790     180.0    B.Cu.4
+J9       GND-Opt          Solder_trace        3.1384     0.2490     180.0    B.Cu.4
+J10      GND-Opt          Solder_trace        3.1384     0.1210     180.0    B.Cu.4
+## End

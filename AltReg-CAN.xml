@@ -1,0 +1,2831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/mnt/158C58DD2F8838A5/KiCAD/Projects/Alternator-Regulator-v0.3.x(CAN)/AltReg-CAN.sch</source>
+    <date>Sun 08 Jan 2017 04:10:42 PM PST</date>
+    <tool>Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CAN enabled DCAlternator Regulator using Arduino IDE</title>
+        <company>Copyright 2016 -  William A. Thomason</company>
+        <rev>0.3.6</rev>
+        <date>1 dec 2016</date>
+        <source>AltReg-CAN.sch</source>
+        <comment number="1" value="Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."/>
+        <comment number="2" value="http://arduinoalternatorregulator.blogspot.com/"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53E4E9AA</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53E4E9B2</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53E4E9F2</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1002V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53E4EA02</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53E4ECF9</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>T3904</value>
+      <footprint>SOT23</footprint>
+      <fields>
+        <field name="Part #">863-MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="T3904"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53E4F20B</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1002V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53E4F21A</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53E60F95</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>BAT54S</value>
+      <footprint>SOT23</footprint>
+      <fields>
+        <field name="Part #">863-BAT54SLT1G</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="BAT54S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53E8A896</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>RJ45</value>
+      <footprint>RJ45_8</footprint>
+      <fields>
+        <field name="Part #">538-42410-8504  or 649-54602-908LF</field>
+      </fields>
+      <libsource lib="conn" part="RJ45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53ED8B49</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>RJ45</value>
+      <footprint>RJ45_8</footprint>
+      <fields>
+        <field name="Part #">538-42410-8504  or 649-54602-908LF</field>
+      </fields>
+      <libsource lib="conn" part="RJ45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53ED8B50</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>HOLE</value>
+      <footprint>hole_3mm</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53EDB798</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>HOLE</value>
+      <footprint>hole_3mm</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53EDB79E</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>HOLE</value>
+      <footprint>hole_3mm</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53EDB7A4</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>HOLE</value>
+      <footprint>hole_3mm</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53EDB7AA</tstamp>
+    </comp>
+    <comp ref="V2">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53EE21F9</tstamp>
+    </comp>
+    <comp ref="V1">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53EE21FF</tstamp>
+    </comp>
+    <comp ref="V4">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53EE2205</tstamp>
+    </comp>
+    <comp ref="V3">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53EE2217</tstamp>
+    </comp>
+    <comp ref="V5">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53EE221D</tstamp>
+    </comp>
+    <comp ref="V7">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53EE2223</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>27</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF27R0V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5410198D</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>CG0603MLC-05E</value>
+      <footprint>SM0603</footprint>
+      <fields>
+        <field name="Part #">652-CG0603MLC-05E </field>
+      </fields>
+      <libsource lib="w_device" part="TVS_BIPOL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54101994</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>CG0603MLC-05E</value>
+      <footprint>SM0603</footprint>
+      <fields>
+        <field name="Part #">652-CG0603MLC-05E </field>
+      </fields>
+      <libsource lib="w_device" part="TVS_BIPOL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5410199B</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>27</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF27R0V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>541019AF</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>541019BD</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>47pF</value>
+      <footprint>SM0603_Capa</footprint>
+      <fields>
+        <field name="Part #">77-VJ0603A470JXACBC</field>
+        <field name="Smart Proto">Capacitor 47pF (470) 5% 50V 0603</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>541019FD</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>47pF</value>
+      <footprint>SM0603_Capa</footprint>
+      <fields>
+        <field name="Part #">77-VJ0603A470JXACBC</field>
+        <field name="Smart Proto">Capacitor 47pF (470) 5% 50V 0603</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54101A11</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>ICSP</value>
+      <footprint>pin_array_3x2</footprint>
+      <fields>
+        <field name="Part #">649-67996-206HLF</field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="CONN_3X2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54322291</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">810-MLZ2012N100L</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="INDUCTOR-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>543AA7AF</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>FT230X-S</value>
+      <footprint>ssop-16</footprint>
+      <fields>
+        <field name="Mouser Part#">895-FT230XS-R</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="FT230X-S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D18422</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1002V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54EABFD2</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>1K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1001V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5515A383</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>FSV20100V</value>
+      <footprint>TO277-DIODE</footprint>
+      <fields>
+        <field name="Part #">512-FSV20100V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="DIODE-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55C6846F</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>FSV20100V</value>
+      <footprint>TO277-DIODE</footprint>
+      <fields>
+        <field name="Part #">512-FSV20100V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="DIODE-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55C68476</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55C6F909</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>100</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1000V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55C6F9D9</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>CG0603MLC-05E</value>
+      <footprint>SM0603</footprint>
+      <fields>
+        <field name="Part #">652-CG0603MLC-05E </field>
+      </fields>
+      <libsource lib="w_device" part="TVS_BIPOL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55C6D10E</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>100</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1000V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55C6D274</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.47uF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">581-08055C474KAT2A</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55C6D2CF</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>SS1H10</value>
+      <footprint>DO-214AC(SMA)</footprint>
+      <fields>
+        <field name="Part #">625-SS1H10-E3</field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55C899DD</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55C8CCEF</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1M</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">279-CPF0603B1M0E1</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E51175</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>37.8K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Mouser">667-ERJ-3EKF3742V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E5118A</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>TPW4R50ANH</value>
+      <footprint>DSOP-8</footprint>
+      <fields>
+        <field name="Part#">757-TPW4R50ANHL1Q</field>
+      </fields>
+      <libsource lib="w_transistor" part="MOS_N_GDS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56049D3B</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_6</value>
+      <footprint>mkds_1,5-6</footprint>
+      <fields>
+        <field name="Part #">651-1935815</field>
+        <field name="Optional:">710-691311700106  &amp; 710-691351700006  (20A field current limit)</field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="CONN_6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56059200</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>NCV8406A</value>
+      <footprint>sot223</footprint>
+      <fields>
+        <field name="Part #">863-NCV8406ASTT1G</field>
+        <field name="Optional:">Self protecting, 24v max system: 511-VNL5160N3TR-E </field>
+      </fields>
+      <libsource lib="w_transistor" part="MOS_N_GDS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5605AFA9</tstamp>
+    </comp>
+    <comp ref="V8">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5605F7A1</tstamp>
+    </comp>
+    <comp ref="V14">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56062287</tstamp>
+    </comp>
+    <comp ref="V15">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5606228D</tstamp>
+    </comp>
+    <comp ref="V6">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56062293</tstamp>
+    </comp>
+    <comp ref="V11">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56062299</tstamp>
+    </comp>
+    <comp ref="V9">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>560622A5</tstamp>
+    </comp>
+    <comp ref="V10">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>560622AB</tstamp>
+    </comp>
+    <comp ref="V13">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>560622B1</tstamp>
+    </comp>
+    <comp ref="V12">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>560622D9</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>SS1H10</value>
+      <footprint>DO-214AC(SMA)</footprint>
+      <fields>
+        <field name="Part #">625-SS1H10-E3</field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56225E82</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>100</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1000V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5622B054</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>SS1H10</value>
+      <footprint>DO-214AC(SMA)</footprint>
+      <fields>
+        <field name="Part #">625-SS1H10-E3</field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5622D51A</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56630F04</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>47uF/100v</value>
+      <footprint>CP_10x16mm</footprint>
+      <fields>
+        <field name="Part #">647-UPW2A470MPD</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="CP1-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56630F82</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>CG0603MLC-05E</value>
+      <footprint>SM0603</footprint>
+      <fields>
+        <field name="Part #">652-CG0603MLC-05E </field>
+      </fields>
+      <libsource lib="w_device" part="TVS_BIPOL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5663114A</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>CG0603MLC-05E</value>
+      <footprint>SM0603</footprint>
+      <fields>
+        <field name="Part #">652-CG0603MLC-05E </field>
+      </fields>
+      <libsource lib="w_device" part="TVS_BIPOL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56631159</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>MAX5033D</value>
+      <footprint>SO8E</footprint>
+      <fields>
+        <field name="Mouser Part#">700-MAX5033DASA</field>
+        <field name="Alt:">MAX5033CASA, do not populate R17.  Install '0' ohm for  R16</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="MAX5033"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5663116C</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56631180</tstamp>
+    </comp>
+    <comp ref="TH1">
+      <value>10K NTC</value>
+      <footprint>SM0603</footprint>
+      <fields>
+        <field name="Part #">81-NCP18XH103F03RB </field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="THERMISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566381CE</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1001V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56646F7E</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>SSA210</value>
+      <footprint>DO-214AC(SMA)</footprint>
+      <fields>
+        <field name="Part #">625-VSSA210-E3/61T </field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566B6A71</tstamp>
+    </comp>
+    <comp ref="V16">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5681C80C</tstamp>
+    </comp>
+    <comp ref="V20">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5681C812</tstamp>
+    </comp>
+    <comp ref="V17">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5681C81E</tstamp>
+    </comp>
+    <comp ref="V19">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5681C8CE</tstamp>
+    </comp>
+    <comp ref="V18">
+      <value>VIA</value>
+      <footprint>02mm_via</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="Via"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5681C97E</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>100K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568B51FC</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>CG0603MLC-05E</value>
+      <footprint>SM0603</footprint>
+      <fields>
+        <field name="Part #">652-CG0603MLC-05E </field>
+      </fields>
+      <libsource lib="w_device" part="TVS_BIPOL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56901027</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>Vdd</value>
+      <footprint>PINTST</footprint>
+      <libsource lib="AltReg-CAN-cache" part="TST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E32E0F</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>MIC4604</value>
+      <footprint>SO8E</footprint>
+      <fields>
+        <field name="Mouser">998-MIC4604YM-TR</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="MIC4604"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571E7F94</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>221</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">279-CPF0603B221RE1</field>
+        <field name="Field5">0.1% or better</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571E9DF2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>30K 0.1%</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">603-RT0805BRD0730KL</field>
+        <field name="Field5">0.1% or better</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571E9E01</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>20K 0.1%</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">603-RT0805BRD0720KL</field>
+        <field name="Field5">0.1% or better</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571E9E09</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>INA226</value>
+      <footprint>MSOP10-0.5</footprint>
+      <fields>
+        <field name="Part 3">595-INA226AIDGSR</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="INA220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571E9E2E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>INA282</value>
+      <footprint>SO8E</footprint>
+      <fields>
+        <field name="Part #">595-INA282AIDR </field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="INA282"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571E9E37</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>4.99K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">284-APC0603B4K99N</field>
+        <field name="Field5">0.1% or better</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571E9E45</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">71-CRCW0603-10-E3</field>
+        <field name="Smart-Proto">Resistor 10 OHM (10R0) 1% 1/10W 0603 </field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571E9E4D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">71-CRCW0603-10-E3</field>
+        <field name="Smart-Proto">Resistor 10 OHM (10R0) 1% 1/10W 0603 </field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571E9E55</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571E9EA7</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571E9EAE</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>4.99K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">284-APC0603B4K99N</field>
+        <field name="Field5">0.1% or better</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5733ED90</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1002V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5733F607</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1002V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5733F615</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>SW_DIP-8</value>
+      <footprint>SWDIP8u</footprint>
+      <fields>
+        <field name="Part #">774-2108MS   or   642-DPL08(right angle) </field>
+        <field name="Note">Right Angle</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="SW_DIP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57341DB3</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>CG0603MLC-05E</value>
+      <footprint>SM0603</footprint>
+      <fields>
+        <field name="Part #">652-CG0603MLC-05E </field>
+      </fields>
+      <libsource lib="w_device" part="TVS_BIPOL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>573640CD</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.47uF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">581-08055C474KAT2A</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>573640E1</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>100</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1000V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>573640F1</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>LED</value>
+      <footprint>LED-5MM-DUAL</footprint>
+      <fields>
+        <field name="Mouser">604-WP59EGW</field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="DOUBLE_LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>573648AF</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>1K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1001V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>573649B8</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>100</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1000V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>573678D4</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>VBat-Shunt</value>
+      <footprint>Solder_trace</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="SOLDER_TRACE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57374B7C</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_4</value>
+      <footprint>mkds_1,5-4</footprint>
+      <fields>
+        <field name="Part #">651-1935187 </field>
+        <field name="Optional:">651-1934887  &amp;  651-1933202 </field>
+        <field name="Option:">710-691351700004 &amp; 710-691311700104</field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="CONN_4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>573766F8</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>GND-Opt</value>
+      <footprint>Solder_trace</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="SOLDER_TRACE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57376A5D</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>GND-Opt</value>
+      <footprint>Solder_trace</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="SOLDER_TRACE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57376F75</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>GND-Opt</value>
+      <footprint>Solder_trace</footprint>
+      <libsource lib="Kubota-Regulator-Custom" part="SOLDER_TRACE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57376F89</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57378732</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">71-CRCW0603-10-E3</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>573860C8</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">71-CRCW0603-10-E3</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>573860F5</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>USB</value>
+      <footprint>PIN_ARRAY_5x1</footprint>
+      <libsource lib="AltReg-CAN-cache" part="CONN_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575B36CB</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CAN</value>
+      <footprint>PCB_Terminal_3.81mm_3pin</footprint>
+      <fields>
+        <field name="Part #">158-P02EK381V3-E</field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="CONN_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5774D789</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>NCV1124</value>
+      <footprint>so-8</footprint>
+      <fields>
+        <field name="Mouser">863-NCV1124DR2G</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="NCV1124"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5774C15D</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>150pF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">581-08055C151K</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57787D37</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>4.7uF</value>
+      <footprint>SM1206</footprint>
+      <fields>
+        <field name="Part #">581-12063C475KAT2A</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5781FC50</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>4.7uF</value>
+      <footprint>SM1206</footprint>
+      <fields>
+        <field name="Part #">581-12063C475KAT2A</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5781FC7C</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>56uF</value>
+      <footprint>CP_6.3x11mm</footprint>
+      <fields>
+        <field name="Part #">647-UHD1V560MED</field>
+        <field name="Field5">667-EEU-FR1H560  (2nd choice - OK, but not best)</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="CP1-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5786C17A</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_5</value>
+      <footprint>mkds_1,5-5</footprint>
+      <fields>
+        <field name="Field4">651-1935190</field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="CONN_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5798CE06</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+        <field name="Smart-proto">Capacitor 100nF (104) 10% 50V C1711</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57990335</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>16Mhz</value>
+      <footprint>resonator_smd</footprint>
+      <fields>
+        <field name="Field4">  81-CSTCE16M0V13C99R0 </field>
+      </fields>
+      <libsource lib="w_device" part="RESONATOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579918B9</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>37.8K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Mouser">667-ERJ-3EKF3742V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57995038</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>37.8K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Mouser">667-ERJ-3EKF3742V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57995075</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP1401</value>
+      <footprint>SOT23-5</footprint>
+      <fields>
+        <field name="Mouser">579-MCP1401T-E/OT  or 579-MCP1402T-E/OT</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="MCP1416"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579A0D53</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">&lt;DNP&gt; 667-ERJ-3EKF1000V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579A1163</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>BAT54S</value>
+      <footprint>SOT23</footprint>
+      <fields>
+        <field name="Part #">863-BAT54SLT1G</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="BAT54S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A31ACA</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>NUP2105L</value>
+      <footprint>SOT23</footprint>
+      <fields>
+        <field name="Part #">863-NUP2105LT1G</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="NUP2105L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A4E111</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.47uF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">Optional:  80-C0805C474K3R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A4E118</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">Optional:  667-ERJ-3EKF1001V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A4E11F</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>TERM</value>
+      <footprint>PIN_ARRAY_2X1</footprint>
+      <libsource lib="AltReg-CAN-cache" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A4E14B</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A55E15</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SMAJ64A</value>
+      <footprint>do214ac</footprint>
+      <fields>
+        <field name="Part #">710-824500641</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="ZENER-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B287B7</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SMAJ64A</value>
+      <footprint>do214ac</footprint>
+      <fields>
+        <field name="Part #">710-824500641</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="ZENER-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B287C4</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>SMAJ30A</value>
+      <footprint>do214ac</footprint>
+      <fields>
+        <field name="Part #">710-824500301</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="ZENER-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B287FF</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>SMAJ64A</value>
+      <footprint>do214ac</footprint>
+      <fields>
+        <field name="Part #">710-824500641</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="ZENER-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B2889F</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>120</value>
+      <footprint>SM1210</footprint>
+      <fields>
+        <field name="Mouser">603-RC1210FR-07120RL</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B2FB08</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>MCP2562</value>
+      <footprint>SO8E</footprint>
+      <fields>
+        <field name="Field4">579-MCP2562-E/SN</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="MCP2562"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B2FB4D</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B2FB54</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1002V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C06E06</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1002V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C06E2B</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1002V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C06E44</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>MC78M05CDT</value>
+      <footprint>DPAK2</footprint>
+      <fields>
+        <field name="Part #">511-L78M05CDT-TR</field>
+      </fields>
+      <libsource lib="regul" part="MC78M05CDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C0999A</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>0.47uF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">581-08055C474KAT2A</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C099A1</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>4.7uF</value>
+      <footprint>SM1206</footprint>
+      <fields>
+        <field name="Part #">581-12063C475KAT2A</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C0A145</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57CDD412</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>680uH</value>
+      <footprint>INDUCTOR_LRS</footprint>
+      <fields>
+        <field name="Part #">580-12LRS684C  or 580-12LRS105C</field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57CEF69D</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>1M</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">279-CPF0603B1M0E1</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57CF8DD1</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>TPW4R50ANH</value>
+      <footprint>DSOP-8</footprint>
+      <fields>
+        <field name="Part#">757-TPW4R50ANHL1Q</field>
+      </fields>
+      <libsource lib="w_transistor" part="MOS_N_GDS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D37443</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>USB_MICRO</value>
+      <footprint>conn_usb_B_micro_vertical</footprint>
+      <fields>
+        <field name="Field4">649-10118193-0001LF  (Horz)</field>
+        <field name="Note">Stacked USB parts, selected Vert or Horz.</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="USB_micro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D9A401</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB_MICRO</value>
+      <footprint>conn_usb_B_micro_FCI</footprint>
+      <fields>
+        <field name="Field4">538-105133-0001  (Vertical)</field>
+        <field name="Note">Stacked USB parts, selected Vert or Horz.</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="USB_micro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D9A409</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1M</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">279-CPF0603B1M0E1</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D9BED7</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7nF</value>
+      <footprint>SM0603_Capa</footprint>
+      <fields>
+        <field name="Part #">710-885012207070</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D9C158</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>I2C</value>
+      <footprint>PIN_ARRAY_2X1</footprint>
+      <libsource lib="AltReg-CAN-cache" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57354175</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>ATMEGA64M1-Ax</value>
+      <footprint>TQFP32</footprint>
+      <fields>
+        <field name="Part #">556-ATMEGA64M1-15AZ</field>
+        <field name="Optional">Optional: ATMEGA64C1-15AZ  (Does not contain PSC subsystem)</field>
+        <field name="Arrow">ATMEGA64M1-15AD</field>
+      </fields>
+      <libsource lib="atmel" part="ATMEGA32M1-A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5818F00D</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>A</value>
+      <footprint>PCB_Terminal_3.81mm_2pin</footprint>
+      <fields>
+        <field name="Part #">158-P02EK381V2-E  or 651-1751477</field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581A0EAF</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>B</value>
+      <footprint>PCB_Terminal_3.81mm_2pin</footprint>
+      <fields>
+        <field name="Part #">158-P02EK381V2-E  or 651-1751477</field>
+      </fields>
+      <libsource lib="AltReg-CAN-cache" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581A0EF4</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>150pF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">581-08055C151K</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581A2060</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>100</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1000V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581A22EE</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">667-ERJ-3EKF1001V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582CADF2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">80-C0805C104K5R</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582F3BEA</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>100</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">&lt;DNP&gt;  667-ERJ-3EKF1000V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582F3BF1</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1M</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">279-CPF0603B1M0E1</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582F3C0B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>37.8K</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Mouser">667-ERJ-3EKF3742V</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582F3C12</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>BAT54S</value>
+      <footprint>SOT23</footprint>
+      <fields>
+        <field name="Part #">863-BAT54SLT1G</field>
+      </fields>
+      <libsource lib="Kubota-Regulator-Custom" part="BAT54S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582F3C27</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>150pF</value>
+      <footprint>SM0805</footprint>
+      <fields>
+        <field name="Part #">581-08055C151K</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834F778</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>1M</value>
+      <footprint>SM0603_Resistor</footprint>
+      <fields>
+        <field name="Part #">279-CPF0603B1M0E1</field>
+      </fields>
+      <libsource lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58407BF6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="atmel" part="ATMEGA16M1-A">
+      <aliases>
+        <alias>ATMEGA32M1-A</alias>
+        <alias>ATMEGA64M1-A</alias>
+      </aliases>
+      <description>TQFP32, 16k Flash, 1k SRAM, 512B EEPROM, CAN</description>
+      <docs>http://www.atmel.com/Images/doc8209.pdf</docs>
+      <footprints>
+        <fp>TQFP32</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATMEGA16M1-A</field>
+        <field name="Footprint">TQFP32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT18/PSCIN2/OC1A/MISO_A)PD2" type="BiDi"/>
+        <pin num="2" name="(PCINT19/TXD/TXLIN/OC0A/~SS~/MOSI_A)PD3" type="BiDi"/>
+        <pin num="3" name="(PCINT9/PSCIN1/OC1B/~SS_A~)PC1" type="BiDi"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="(PCINT10/T0/TXCAN)PC2" type="BiDi"/>
+        <pin num="7" name="(PCINT11/T1/ICP1B/RXCAN)PC3" type="BiDi"/>
+        <pin num="8" name="(PCINT0/MISO/PSCOUT2A)PB0" type="BiDi"/>
+        <pin num="9" name="(PCINT1/MOSI/PSCOUT2B)PB1" type="BiDi"/>
+        <pin num="10" name="(PCINT25/OC0B/XTAL1)PE1" type="BiDi"/>
+        <pin num="11" name="(PCINT26/ADC0/XTAL2)PE2" type="BiDi"/>
+        <pin num="12" name="(PCINT20/ADC1/RXD/RXLIN/ICP1A/SCK_A)PD4" type="BiDi"/>
+        <pin num="13" name="(PCINT21/ADC2/ACMP2)PD5" type="BiDi"/>
+        <pin num="14" name="(PCINT22/ADC3/INT0/ACMPN2)PD6" type="BiDi"/>
+        <pin num="15" name="(PCINT23/ACMP0)PD7" type="BiDi"/>
+        <pin num="16" name="(PCINT2/ADC5/INT1/ACMPN0)PB2" type="BiDi"/>
+        <pin num="17" name="(PCINT12/ADC8/ACMPN3/AMP1-)PC4" type="BiDi"/>
+        <pin num="18" name="(PCINT13/ADC9/ACMP3/AMP1+)PC5" type="BiDi"/>
+        <pin num="19" name="AVCC" type="power_in"/>
+        <pin num="20" name="AGND" type="power_in"/>
+        <pin num="21" name="AREF(ISRC)" type="power_in"/>
+        <pin num="22" name="(PCINT14/ADC10/ACMP1)PC6" type="BiDi"/>
+        <pin num="23" name="(PCINT3/AMP0-)PB3" type="BiDi"/>
+        <pin num="24" name="(PCINT4/AMP0+)PB4" type="BiDi"/>
+        <pin num="25" name="(PCINT15/D2A/AMP2+)PC7" type="BiDi"/>
+        <pin num="26" name="(PCINT5/ADC6/INT2/ACMPN1/AMP2-)PB5" type="BiDi"/>
+        <pin num="27" name="(PCINT6/ADC7/PSCOUT1B)PB6" type="BiDi"/>
+        <pin num="28" name="(PCINT7/ADC4/SCK/PSCOUT0B)PB7" type="BiDi"/>
+        <pin num="29" name="(PCINT16/PSCOUT0A)PD0" type="BiDi"/>
+        <pin num="30" name="(PCINT8/INT3/PSCOUT1A)PC0" type="BiDi"/>
+        <pin num="31" name="(PCINT24/OCD/~RESET~)PE0" type="BiDi"/>
+        <pin num="32" name="(PCINT17/CLKO/PSCIN0)PD1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="BAT54S">
+      <description>BAT54S</description>
+      <footprints>
+        <fp>SOT23</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+        <pin num="2" name="~" type="power_in"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-rescue" part="C-RESCUE-AltReg-CAN">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-AltReg-CAN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-cache" part="CONN_2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-cache" part="CONN_3">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CONN_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-cache" part="CONN_3X2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_3X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-cache" part="CONN_4">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-cache" part="CONN_5">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-cache" part="CONN_6">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-rescue" part="CP1-RESCUE-AltReg-CAN">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-RESCUE-AltReg-CAN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-rescue" part="DIODE-RESCUE-AltReg-CAN">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-RESCUE-AltReg-CAN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-cache" part="DIODESCH">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODESCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-cache" part="DOUBLE_LED">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DOUBLE_LED</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="A1" type="passive"/>
+        <pin num="A2" name="A2" type="passive"/>
+        <pin num="K" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="FT230X-S">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT230X-S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="output"/>
+        <pin num="2" name="~RTS" type="BiDi"/>
+        <pin num="3" name="VCCIO" type="power_in"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="~CTS" type="BiDi"/>
+        <pin num="7" name="CBUS2" type="BiDi"/>
+        <pin num="8" name="USBDP" type="BiDi"/>
+        <pin num="9" name="USBDM" type="BiDi"/>
+        <pin num="10" name="3V3OUT" type="power_out"/>
+        <pin num="11" name="~RESET" type="input"/>
+        <pin num="12" name="VCC" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="CBUS1" type="BiDi"/>
+        <pin num="15" name="CBUS0" type="BiDi"/>
+        <pin num="16" name="CBUS3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="HOLE">
+      <description>mechanical mounting hole</description>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">HOLE</field>
+      </fields>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="INA220">
+      <description>INA220, INA226</description>
+      <footprints>
+        <fp>MSOP10-0.5</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="~Alert~/NC" type="passive"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="Vss" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="Vbus" type="input"/>
+        <pin num="9" name="Vin-" type="input"/>
+        <pin num="10" name="Vin+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="INA282">
+      <description>INA282</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA282</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In-" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Ref_2" type="input"/>
+        <pin num="5" name="Out" type="output"/>
+        <pin num="6" name="V+" type="power_in"/>
+        <pin num="7" name="Ref1" type="input"/>
+        <pin num="8" name="In+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-rescue" part="INDUCTOR-RESCUE-AltReg-CAN">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR-RESCUE-AltReg-CAN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-cache" part="INDUCTOR_SMALL">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="MAX5033">
+      <description>500mA lowIQ  step down switching regulator</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX5033</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BST" type="input"/>
+        <pin num="2" name="VD" type="input"/>
+        <pin num="3" name="SGND" type="input"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="On/~Off" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="Vin" type="power_in"/>
+        <pin num="8" name="LX" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="MC78M05CDT">
+      <description>Positive 0.5A 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM78M05.pdf</docs>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC78M05CDT</field>
+        <field name="Footprint">TO-252</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="MCP1416">
+      <aliases>
+        <alias>MCP1401</alias>
+        <alias>MCP1415</alias>
+        <alias>MCP1402</alias>
+      </aliases>
+      <description>Op amp</description>
+      <docs>AmpliOp.sch</docs>
+      <footprints>
+        <fp>SOT23-5</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1416</field>
+      </fields>
+      <pins>
+        <pin num="2" name="Vdd" type="input"/>
+        <pin num="3" name="In" type="input"/>
+        <pin num="4" name="Gnd" type="input"/>
+        <pin num="5" name="Out" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="MCP2562">
+      <description>5V CAN Transceiver</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP2562</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="Vss" type="input"/>
+        <pin num="3" name="Vdd" type="input"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="Vio" type="power_in"/>
+        <pin num="6" name="CANL" type="input"/>
+        <pin num="7" name="CANH" type="input"/>
+        <pin num="8" name="STBY" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="MIC4604">
+      <description>MIC4604 - FET Driver</description>
+      <footprints>
+        <fp>SOIC-8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC4604</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="power_in"/>
+        <pin num="2" name="Hb" type="power_in"/>
+        <pin num="3" name="HO" type="output"/>
+        <pin num="4" name="HS" type="BiDi"/>
+        <pin num="5" name="HI" type="input"/>
+        <pin num="6" name="LI" type="input"/>
+        <pin num="7" name="Vss" type="power_in"/>
+        <pin num="8" name="LO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_transistor" part="MOS_N_GDS">
+      <description>N channel MOSFET, GDS footprint</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOS_N_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="NCV1124">
+      <footprints>
+        <fp>SO-8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCV1124</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Radj" type="input"/>
+        <pin num="2" name="IN1" type="input"/>
+        <pin num="3" name="IN2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DIAG" type="input"/>
+        <pin num="6" name="OUT2" type="output"/>
+        <pin num="7" name="OUT1" type="output"/>
+        <pin num="8" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="NUP2105L">
+      <description>NUP2105L</description>
+      <footprints>
+        <fp>SOT23</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">NUP2105L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+        <pin num="2" name="~" type="power_in"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-rescue" part="R-RESCUE-AltReg-CAN">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-AltReg-CAN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_device" part="RESONATOR">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">RESONATOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="RJ45">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="SOLDER_TRACE">
+      <description>Solderable trace option</description>
+      <footprints>
+        <fp>Solder_trace</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SOLDER_TRACE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="SW_DIP-8">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SW_DIP-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="T3904">
+      <description>T3904</description>
+      <docs>transistors/bipolar/*.*</docs>
+      <footprints>
+        <fp>SOT23</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">T3904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-cache" part="THERMISTOR">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">THERMISTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-cache" part="TST">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">TST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_device" part="TVS_BIPOL">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS_BIPOL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="USB_micro">
+      <footprints>
+        <fp>conn_usb_B_micro_vertical</fp>
+        <fp>conn_usb_B_micro_FCI</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vbus" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kubota-Regulator-Custom" part="Via">
+      <description>mechanical mounting hole</description>
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">Via</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AltReg-CAN-rescue" part="ZENER-RESCUE-AltReg-CAN">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER-RESCUE-AltReg-CAN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="w_device">
+      <uri>/mnt/158C58DD2F8838A5/KiCAD/Share/library/smisioto/w_device.lib</uri>
+    </library>
+    <library logical="w_transistor">
+      <uri>/mnt/158C58DD2F8838A5/KiCAD/Share/library/smisioto/w_transistor.lib</uri>
+    </library>
+    <library logical="Kubota-Regulator-Custom">
+      <uri>/mnt/158C58DD2F8838A5/KiCAD/Share/library/Kubota-Regulator-Custom.lib</uri>
+    </library>
+    <library logical="AltReg-CAN-cache">
+      <uri>/mnt/158C58DD2F8838A5/KiCAD/Projects/Alternator-Regulator-v0.3.x(CAN)/AltReg-CAN-cache.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>/usr/share/kicad/library/atmel.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="AltReg-CAN-rescue">
+      <uri>/mnt/158C58DD2F8838A5/KiCAD/Projects/Alternator-Regulator-v0.3.x(CAN)/AltReg-CAN-rescue.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C21-Pad1)">
+      <node ref="R34" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="D16" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="K1" pin="2"/>
+    </net>
+    <net code="2" name="VBat+">
+      <node ref="R1" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(K1-Pad1)">
+      <node ref="R33" pin="1"/>
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(K2-Pad1)">
+      <node ref="R30" pin="1"/>
+      <node ref="K2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D22-PadA1)">
+      <node ref="D22" pin="A1"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D22-PadA2)">
+      <node ref="R42" pin="2"/>
+      <node ref="D22" pin="A2"/>
+    </net>
+    <net code="7" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="8" name="Net-(R11-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="9" name="Net-(R15-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="12" name="/Feature_OUT">
+      <node ref="Q1" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U6" pin="23"/>
+    </net>
+    <net code="13" name="/LED_Red">
+      <node ref="R40" pin="1"/>
+      <node ref="U6" pin="32"/>
+    </net>
+    <net code="14" name="/B_NTC">
+      <node ref="U6" pin="14"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="15" name="/SCL">
+      <node ref="R37" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="16" name="/SDA">
+      <node ref="J2" pin="1"/>
+      <node ref="R35" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="17" name="/FET_NTC">
+      <node ref="TH1" pin="2"/>
+      <node ref="U6" pin="27"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="18" name="/Feature_IN">
+      <node ref="R27" pin="2"/>
+      <node ref="U6" pin="24"/>
+    </net>
+    <net code="19" name="/A_NTC">
+      <node ref="R32" pin="2"/>
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="20" name="/Field PWM">
+      <node ref="U7" pin="5"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="21" name="/Stator_IRQ">
+      <node ref="U7" pin="6"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U6" pin="30"/>
+    </net>
+    <net code="22" name="BAT-">
+      <node ref="V17" pin="1"/>
+      <node ref="V20" pin="1"/>
+      <node ref="V19" pin="1"/>
+      <node ref="V18" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C31" pin="2"/>
+      <node ref="D9" pin="1"/>
+      <node ref="U10" pin="6"/>
+      <node ref="R39" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="R41" pin="2"/>
+      <node ref="V16" pin="1"/>
+      <node ref="U7" pin="7"/>
+      <node ref="TH1" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="J4" pin="5"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="D11" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="J3" pin="5"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R31" pin="1"/>
+      <node ref="X1" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="D21" pin="3"/>
+      <node ref="R8" pin="1"/>
+      <node ref="V11" pin="1"/>
+      <node ref="V6" pin="1"/>
+      <node ref="V15" pin="1"/>
+      <node ref="V14" pin="1"/>
+      <node ref="V8" pin="1"/>
+      <node ref="R30" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="V10" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U8" pin="8"/>
+      <node ref="V9" pin="1"/>
+      <node ref="V12" pin="1"/>
+      <node ref="V13" pin="1"/>
+      <node ref="S1" pin="9"/>
+      <node ref="C9" pin="2"/>
+      <node ref="S1" pin="11"/>
+      <node ref="S1" pin="10"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="P1" pin="4"/>
+      <node ref="D16" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="D22" pin="K"/>
+      <node ref="U5" pin="5"/>
+      <node ref="S1" pin="16"/>
+      <node ref="S1" pin="15"/>
+      <node ref="S1" pin="14"/>
+      <node ref="S1" pin="13"/>
+      <node ref="R33" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="S1" pin="12"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="V5" pin="1"/>
+      <node ref="U10" pin="3"/>
+      <node ref="D6" pin="1"/>
+      <node ref="V7" pin="1"/>
+      <node ref="V3" pin="1"/>
+      <node ref="V4" pin="1"/>
+      <node ref="V1" pin="1"/>
+      <node ref="V2" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U4" pin="13"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="P4" pin="6"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U6" pin="20"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R31-Pad2)">
+      <node ref="R31" pin="2"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J5-Pad8)">
+      <node ref="J7" pin="8"/>
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="25" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="26" name="Alt+">
+      <node ref="P6" pin="2"/>
+      <node ref="P6" pin="1"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="27" name="/B">
+      <node ref="Q4" pin="2"/>
+      <node ref="P6" pin="3"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="28" name="/C">
+      <node ref="Q3" pin="3"/>
+      <node ref="U7" pin="4"/>
+      <node ref="D19" pin="2"/>
+      <node ref="P6" pin="4"/>
+      <node ref="C18" pin="1"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="29" name="Enable">
+      <node ref="D18" pin="2"/>
+      <node ref="D14" pin="1"/>
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="30" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="31" name="Net-(U6-Pad6)">
+      <node ref="U6" pin="6"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="32" name="Alt-">
+      <node ref="P6" pin="6"/>
+      <node ref="P6" pin="5"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J10" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="D19" pin="1"/>
+    </net>
+    <net code="33" name="Net-(C23-Pad1)">
+      <node ref="R32" pin="1"/>
+      <node ref="R36" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="K2" pin="2"/>
+    </net>
+    <net code="34" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="D11" pin="3"/>
+    </net>
+    <net code="35" name="Feature-OUT">
+      <node ref="Q1" pin="2"/>
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="36" name="/3.3v">
+      <node ref="U4" pin="11"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="37" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="38" name="Net-(J5-Pad5)">
+      <node ref="J7" pin="5"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="39" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4"/>
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="40" name="Net-(C25-Pad1)">
+      <node ref="C25" pin="1"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="41" name="Feature-IN">
+      <node ref="R4" pin="1"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="42" name="Net-(C27-Pad1)">
+      <node ref="C27" pin="1"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="43" name="Net-(C17-Pad2)">
+      <node ref="U6" pin="21"/>
+      <node ref="C17" pin="2"/>
+    </net>
+    <net code="44" name="Net-(U6-Pad11)">
+      <node ref="X1" pin="1"/>
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="45" name="Net-(U6-Pad25)">
+      <node ref="U6" pin="25"/>
+    </net>
+    <net code="46" name="/DIP-8">
+      <node ref="S1" pin="8"/>
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="47" name="/DIP-7">
+      <node ref="S1" pin="7"/>
+      <node ref="U6" pin="16"/>
+    </net>
+    <net code="48" name="/DIP-6">
+      <node ref="S1" pin="6"/>
+      <node ref="U6" pin="22"/>
+    </net>
+    <net code="49" name="/DIP-5">
+      <node ref="S1" pin="5"/>
+      <node ref="U6" pin="17"/>
+    </net>
+    <net code="50" name="/DIP-4">
+      <node ref="U6" pin="18"/>
+      <node ref="S1" pin="4"/>
+    </net>
+    <net code="51" name="/DIP-3">
+      <node ref="U6" pin="29"/>
+      <node ref="S1" pin="3"/>
+    </net>
+    <net code="52" name="/DIP-2">
+      <node ref="U6" pin="28"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="53" name="/DIP-1">
+      <node ref="U6" pin="26"/>
+      <node ref="S1" pin="1"/>
+    </net>
+    <net code="54" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="55" name="/USB-SHLD">
+      <node ref="J4" pin="6"/>
+      <node ref="P1" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="56" name="STATOR">
+      <node ref="R3" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="57" name="+5V">
+      <node ref="R21" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R37" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U5" pin="8"/>
+      <node ref="R35" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="P4" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U8" pin="3"/>
+      <node ref="C28" pin="2"/>
+      <node ref="R38" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="C20" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="U6" pin="4"/>
+      <node ref="D11" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="58" name="Current Shunt -">
+      <node ref="D1" pin="2"/>
+      <node ref="P2" pin="4"/>
+      <node ref="R44" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="59" name="Net-(C3-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="D10" pin="3"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="60" name="Net-(R39-Pad2)">
+      <node ref="U10" pin="4"/>
+      <node ref="R43" pin="1"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="61" name="Net-(C29-Pad1)">
+      <node ref="R41" pin="1"/>
+      <node ref="C29" pin="1"/>
+    </net>
+    <net code="62" name="Tach-OUT">
+      <node ref="P3" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="63" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="64" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="65" name="Net-(R10-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="66" name="Net-(J6-Pad1)">
+      <node ref="R28" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="67" name="VDD">
+      <node ref="C8" pin="2"/>
+      <node ref="C32" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R43" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="D17" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U7" pin="1"/>
+      <node ref="TP1" pin="1"/>
+    </net>
+    <net code="68" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="69" name="Net-(U6-Pad10)">
+      <node ref="U6" pin="10"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="70" name="Net-(J3-Pad4)">
+      <node ref="J4" pin="4"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="71" name="/XD">
+      <node ref="P1" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="D12" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="72" name="Current Shunt +">
+      <node ref="P2" pin="3"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="R44" pin="2"/>
+    </net>
+    <net code="73" name="/POL-PROT">
+      <node ref="U10" pin="7"/>
+      <node ref="U10" pin="5"/>
+      <node ref="D14" pin="2"/>
+      <node ref="C31" pin="1"/>
+    </net>
+    <net code="74" name="/Hb">
+      <node ref="D17" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="75" name="/HO-Q1">
+      <node ref="R26" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="76" name="/HO-Q3">
+      <node ref="Q3" pin="1"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="77" name="/HO">
+      <node ref="U7" pin="3"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="78" name="/CAN_shield">
+      <node ref="C14" pin="1"/>
+      <node ref="P5" pin="2"/>
+      <node ref="J5" pin="6"/>
+      <node ref="J7" pin="6"/>
+    </net>
+    <net code="79" name="/XH">
+      <node ref="C27" pin="2"/>
+      <node ref="U10" pin="8"/>
+      <node ref="C29" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="80" name="Net-(J7-Pad9)">
+      <node ref="J7" pin="9"/>
+    </net>
+    <net code="81" name="Net-(J5-Pad9)">
+      <node ref="J5" pin="9"/>
+    </net>
+    <net code="82" name="Net-(C6-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="83" name="/~RESET">
+      <node ref="R20" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="D7" pin="3"/>
+      <node ref="U6" pin="31"/>
+      <node ref="P4" pin="5"/>
+    </net>
+    <net code="84" name="Net-(Q2-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="85" name="Net-(U4-Pad16)">
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="86" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="87" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="88" name="Net-(U4-Pad15)">
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="89" name="/LED_Green">
+      <node ref="D13" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="90" name="Net-(R12-Pad2)">
+      <node ref="U4" pin="9"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="91" name="Net-(R13-Pad2)">
+      <node ref="U4" pin="8"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="92" name="Net-(Q2-Pad2)">
+      <node ref="U4" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="93" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="94" name="Net-(C7-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J3" pin="3"/>
+      <node ref="P1" pin="3"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="95" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="96" name="Net-(D9-Pad2)">
+      <node ref="P4" pin="3"/>
+      <node ref="U6" pin="12"/>
+      <node ref="D9" pin="2"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="97" name="Net-(D6-Pad2)">
+      <node ref="P4" pin="4"/>
+      <node ref="D6" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="98" name="Net-(C13-Pad1)">
+      <node ref="R21" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="99" name="Net-(C19-Pad2)">
+      <node ref="L1" pin="1"/>
+      <node ref="U6" pin="19"/>
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="100" name="/CAN_GND">
+      <node ref="J5" pin="3"/>
+      <node ref="J7" pin="7"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="101" name="/CAN-L">
+      <node ref="J5" pin="2"/>
+      <node ref="P5" pin="3"/>
+      <node ref="R28" pin="2"/>
+      <node ref="D21" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="102" name="/CAN-H">
+      <node ref="P5" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="U8" pin="7"/>
+      <node ref="D21" pin="1"/>
+      <node ref="J6" pin="2"/>
+    </net>
+  </nets>
+</export>
